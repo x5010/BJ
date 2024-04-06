@@ -22,18 +22,20 @@ This project consists of a web-based Blackjack game where the player can interac
 - Express.js: Used for serving static files and setting up endpoints for the game.
 - Node.js: Used for running the server.
 
-## How to Play
+## How to Run the Server
 
-1. Open the `index.html` file in your web browser.
-2. Click the "Start Game" button to begin the game.
-3. Click the "Hit" button to draw another card.
-4. Click the "Stand" button to end your turn and let the dealer play.
-5. Repeat steps 3-4 until the game ends.
-6. The game will determine the winner based on the total value of the player's and dealer's hands.
+1. Make sure you have Node.js installed on your system. If not, you can download and install it from [Node.js official website](https://nodejs.org/).
+2. Open a terminal or command prompt.
+3. Navigate to the directory where your server file (`server.js`) is located.
+4. Run the following command to install the necessary dependencies (assuming you have a `package.json` file with dependencies listed):
+npm install
+5. After installing dependencies, you can start the server by running:
+node server.js
+6. Once the server is running, it will be listening on the specified port (which is defined in your `server.js` file, often `3001` by default). You can access your Blackjack game by opening a web browser and navigating to `http://localhost:3001/blackjack` or the appropriate URL if you've configured a different port.
 
 ## Credits
 
-This project was created by [Your Name].
+This project was created by Elisson.
 
 ## License
 
